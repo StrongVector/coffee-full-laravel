@@ -8,8 +8,13 @@
       <ul class="navbar-nav">
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="all">Coffee</a>
+          <a class="nav-link" href="/coffee/all/">Coffee</a>
       </ul>
+      <ul class="navbar-nav">
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/makanan/all/">Makanan</a>
+    </ul>
     </div>
   </div>
 </nav>

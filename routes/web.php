@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CoffeeController;
+use App\Http\Controllers\MakananController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +21,6 @@ Route::get('/', function () {
 
 
 Route::get('/coffee/all', [CoffeeController::class, 'index']);
-
 Route::get('/coffee/detail/{coffee}', [CoffeeController::class, 'show']);
-Route::get('/load-more', [CoffeeController::class, 'loadMore']);
+Route::get('/makanan/all', [MakananController::class, 'index']);
+Route::get('/makanan/detail/{makanan}', [MakananController::class, 'show']);
