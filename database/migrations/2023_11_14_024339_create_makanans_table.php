@@ -15,6 +15,9 @@ class CreateMakanansTable extends Migration
     {
         Schema::create('makanans', function (Blueprint $table) {
             $table->id();
+            $table->string('nama');
+            $table->string('jenis');
+            $table->string('harga');
             $table->timestamps();
         });
     }
